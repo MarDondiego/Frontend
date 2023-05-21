@@ -8,18 +8,46 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!--Vamos a agregar la barra de navegación.-->
+    <header class="header">
+        <!--Logo con link a la página principal-->
+        <a href="/" class="logo"> 
+          <img src="LMatcha2.jpg" alt="Matcha"/>
+        </a>
+        <!--Agregamos menú de navegación-->
+        <nav class="navbar">
+            <ul>
+                <li>Plataform</li>
+                <li>Pricing</li>
+                <li>Customers</li>
+                <li>Resources</li>
+                <li>About</li>
+            </ul>
+        </nav>
+        <!--Contenedor de acciones de usuario-->
+        <div class="actions">
+            <a>Sign In</a>
+            <button>Start free trial</button>
+        </div>
+    </header>
     <!-- Vamos a escribir lo visible en navegador-->
-    <h1>Construye tu blog. Construye tu negocio.</h1>
-    <p>Instantly publish articles, drive more traffic , grow your email list, and see your blog's impact on sales</p>
-    <p>Start publishing today with a <strong>free 7-day trial.</strong></p>
-    <p><strong>No credit card</strong> required</p>
-<form>
-    <input type="email"/>
-    <button type="submit">
-        Try it now &rarr;
-    </button>
-</form>
-<!--Vamos a agregar imagen-->
-    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Imagen capterra"/>
+    <section class="main">
+        <h1>Build your blog. Build your business.</h1>
+
+        <h4>Instantly publish articles, drive more traffic, grow your email list, and see your blog’s impact on sales.</h4>
+
+        <form>
+            <input type="email">
+            <button type="submit" class="texto-boton">
+                Try it now &rarr;
+            </button>
+        </form>
+
+    <p class="texto-promocional">Start publishing today with a <strong>free 7-day trial.</strong></p>
+    <p class="texto-promocional"><strong>No credit card</strong> required.</p>
+
+    <img src="https://ignos.blog/wp-content/uploads/2021/04/capterra.png" alt="Captcha de Capterra">
+    </section>
+
 </body>
 </html>
